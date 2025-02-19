@@ -5,7 +5,7 @@
 
 .food-card{
     width: 500px;
-    height: 600px;
+    height: auto;
     border-radius: 20px;
     box-shadow: 10px 15px 5px grey;
 }
@@ -30,8 +30,19 @@
 }
 .linkss{
     font-size: 26px;
+    margin-bottom: 20px;
     text-align: center;
     text-decoration: none;
     color: black;
 }
+@media only screen 
+and (min-device-width : 571px) 
+and (max-device-width : 786px) {
+    .food-list {
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+
 
