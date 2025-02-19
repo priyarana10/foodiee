@@ -16,9 +16,154 @@
       "cuisine": "Indian",
       "price": "$15",
       "rating": 4.2,
-      "image": "/images/tikka.jpg", 
+      "image": "https://images.pexels.com/photos/7625056/pexels-photo-7625056.jpeg?auto=compress&cs=tinysrgb&w=600", 
       "description": "Popular Indian curry...",
-      "ingredients": ["chicken","onion"]
+      "ingredients": ["chicken","onion","Tomato","curd"],
+      "calories": 670
     },
-    {}
+    {
+      "id": 3,
+      "name": "Fried Chicken",
+      "cuisine": "Indian",
+      "price": "$15",
+      "rating": 5.5,
+      "image": "https://images.pexels.com/photos/5031943/pexels-photo-5031943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "description": "Popular Indian curry...",
+      "ingredients": ["chicken","white creamic","lemon"],
+      "calories": 1000
+    },
+    {
+      "id": 4,
+      "name": "Paneer Tikka Masala",
+      "cuisine": "Indian",
+      "price": "$15",
+      "rating": 4.4,
+      "image": "https://images.pexels.com/photos/12737816/pexels-photo-12737816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
+      "description": "Popular Indian curry...",
+      "ingredients": ["Paneer","onion","creame","Regular Spicese"],
+      "calories": 600
+    },
+    {
+      "id": 5,
+      "name": "Youtiao",
+      "cuisine": "Chinese",
+      "price": "$15",
+      "rating": 4.6,
+      "image": "https://images.pexels.com/photos/13146950/pexels-photo-13146950.jpeg?auto=compress&cs=tinysrgb&w=600", 
+      "description": "Long strips of deep-fried dough",
+      "ingredients": ["Flour","Sugar","eggs"],
+      "calories": 1340
+    },
+    {
+      "id": 6,
+      "name": "Tangyuan",
+      "cuisine": "Chinese",
+      "price": "$18",
+      "rating": 4.6,
+      "image": "https://media.istockphoto.com/id/1352823898/photo/sesame-big-tangyuan-with-syrup-soup.jpg?b=1&s=612x612&w=0&k=20&c=4RjktmKvzIe7MiLk9sCn45agtCvrVD33dliiLT0fNj4=", 
+      "description": "Glutenous rice balls",
+      "ingredients": ["Rice Flour","Salt","soup"],
+      "calories": 1230
+    },
+    {
+      "id": 7,
+      "name": "Pakora",
+      "cuisine": "Indian",
+      "price": "$13",
+      "rating": 5.0,
+      "image": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347434/india-food-chicken-pakora/india-food-chicken-pakora-1120x732.jpg", 
+      "description": "",
+      "ingredients": ["Flour","Potato","onion","eggplant"],
+      "calories": 1100
+    },
+    {
+      "id": 8,
+      "name": "Bromube",
+      "cuisine": "Chinese",
+      "price": "$10",
+      "rating": 4.2,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Stired-fried_Razor_Clams_with_Black_Beans_and_Pepper.jpg/265px-Stired-fried_Razor_Clams_with_Black_Beans_and_Pepper.jpg", 
+      "description": "",
+      "ingredients": ["Broccoli"," mushrooms", "beansprouts"],
+      "calories": 1000
+    },
+    {
+      "id": 9,
+      "name": "Antipasto",
+      "cuisine": "Italian",
+      "price": "$18",
+      "rating": 4.3,
+      "image": "https://images.pexels.com/photos/30708538/pexels-photo-30708538/free-photo-of-delicious-italian-bruschetta-with-fresh-ingredients.jpeg?auto=compress&cs=tinysrgb&w=600", 
+      "description": "Bruschetta topped with a tomato salad",
+      "ingredients": ["tomato salad", "caramelized balsamic vinegar","Grana Padano cheese"],
+      "calories": 800
+    },
+    {
+      "id": 10,
+      "name": "Baati",
+      "cuisine": "Indian",
+      "price": "$13",
+      "rating": 5.8,
+      "image": "https://media.istockphoto.com/id/521667919/photo/indian-rajasthani-food-dal-bati-laddu-salad.jpg?b=1&s=612x612&w=0&k=20&c=WNVhEUgMQLaaccvIwty2hc48MaqbIIL8hoIi_V-ejTc=", 
+      "description": "Unleavened bread cooked in most of areas of Rajasthan",
+      "ingredients": ["Flour","ghee","dal"],
+      "calories": 6600
+    },
+    {
+      "id": 11,
+      "name": "Chaat",
+      "cuisine": "Indian",
+      "price": "$5",
+      "rating": 4.5,
+      "image": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347465/india-food-aloo-chaat/india-food-aloo-chaat-1120x732.jpg", 
+      "description": "Small meals which usually combine salty, spicy, sweet, and sour flavors.",
+      "ingredients": ["papdi","red sweet souce","onion"],
+      "calories": 700
+    },
+    {
+      "id": 12,
+      "name": "Vada pav",
+      "cuisine": " Indian",
+      "price": "$8",
+      "rating": 3.9,
+      "image": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347356/india-food-vada-pav/india-food-vada-pav-1120x732.jpg", 
+      "description": "vada pav is a traditional, savory Indian cake that is a popular breakfast item in many  Indian households",
+      "ingredients": ["Flour","Sugar","onion"],
+      "calories": 1100
+    },
+    {
+      "id": 13,
+      "name": "Pizza",
+      "cuisine": "Italian",
+      "price": "$60",
+      "rating": 4.9,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pizza_Margherita_stu_spivack.jpg/1280px-Pizza_Margherita_stu_spivack.jpg", 
+      "description": "",
+      "ingredients": ["Flour","cheese","pizza souce"],
+      "calories": 500
+    },
+    {
+      "id": 14,
+      "name": "Naan",
+      "cuisine": "Indian",
+      "price": "$3",
+      "rating": 3.2,
+      "image": "https://res.cloudinary.com/rainforest-cruises/images/c_fill,g_auto/f_auto,q_auto/w_1120,h_732,c_fill,g_auto/v1661347396/india-food-naan/india-food-naan-1120x732.jpg", 
+      "description": "Naan is a well-liked flatbread with a chewy texture.",
+      "ingredients": ["Flour","water","potato filling"],
+      "calories": 1500
+    },
+    {
+      "id": 14,
+      "name": "Lasagne",
+      "cuisine": "Italian",
+      "price": "$39",
+      "rating": 5.2,
+      "image": "https://media.istockphoto.com/id/543663322/photo/meat-lasagna.jpg?b=1&s=612x612&w=0&k=20&c=TTt44LlqbRp45K3jFszlgScITgW_92wrI-FPOWGySLs=", 
+      "description": " Italian cuisine it is made of stacked layers of pasta alternating with fillings such as ragù (ground meats and tomato sauce)",
+      "ingredients": ["Flour","Sugar","onion"],
+      "calories": 200
+
+    }
+    
 ]

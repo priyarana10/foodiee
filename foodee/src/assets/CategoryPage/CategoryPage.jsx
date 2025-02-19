@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-
+import './CategoryPage.css'
 const CategoryPage = ({ foodItems }) => {
     const { type } = useParams();
     const filteredItems = foodItems.filter(item => item.cuisine === type);

@@ -1,86 +1,116 @@
-.main{
-    /* background-color: aliceblue; */
-    /* height: 80px; */
-    padding: 10px;
+.main {
+    /* padding: 10px; */
 }
-.nav{
+.new{
+    background-color: #f7f5f549; 
+    color: #333;
+   
+}
+.nav {
+   padding: 20px;
     display: flex;
-    /* gap: 60px; */
     align-items: center;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
+    color: chocolate;
     align-items: center;
     font-size: 40px;
     font-weight: bold;
-    
+    font-family:cursive;
 }
-.nav-list{
+
+.nav-list {
     display: flex;
     gap: 60px;
+    border: none;
     list-style: none;
     margin: 0;
     margin-top: 8px;
     align-items: center;
     font-size: 26px;
 }
-.search{
+
+.search {
     margin-top: 8px;
     display: flex;
-   
+    
 }
-.search input{
-     width: 300px;
-    background-color: white;
+
+ .search input {
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+    background-color: rgb(255, 255, 255);
     border: none;
     font-size: 20px;
     border-radius: 5px;
 }
-.click{
-   
+
+.click {
     width: 70px;
-    background-color: rgb(222, 244, 253);
+    background-color: #f8f8f8;
     font-size: 20px;
-    /* border: 1px solid black; */
-    border: none;
+    padding: 5px;
+    border: 1px solid #333;
     border-radius: 5px;
-
-
 }
-.food-list{
+
+.food-list {
+    padding: 30px;
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
     gap: 30px;
 }
 
-.food-card{
+.food-card {
     width: 500px;
-    height: 600px;
+    height: 550px; 
     border-radius: 20px;
     box-shadow: 10px 15px 5px grey;
+    margin-bottom: 20px; 
 }
-.food-card img{
-    width: 500px;
-    height: 400px;
+
+.food-card img {
+    width: 500px; 
+    height: auto;
+    object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.food-card h3{
-    font-size: 40px;
+
+.food-card h3 {
+    font-size: 30px; 
     font-weight: bold;
     margin-top: 10px;
     padding: 10px;
 }
-.content{
-    font-size:26px ;
+
+.content {
+    padding-left: 20px;
+    font-size: 26px;
     display: flex;
     text-align: center;
     gap: 100px;
-    /* justify-content: space-around; */
 }
-.linkss{
+
+.linkss {
     font-size: 26px;
     text-align: center;
     text-decoration: none;
     color: black;
 }
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .food-card{
+        justify-content: center;
+        width: 300px;
 
+    }
+    .food-card img{
+        width: 300px;
+    }
+}
