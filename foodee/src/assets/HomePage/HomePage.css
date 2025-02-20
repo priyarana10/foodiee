@@ -70,7 +70,13 @@
     height: 550px; 
     border-radius: 20px;
     box-shadow: 10px 15px 5px grey;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.food-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 15px 20px 10px gray; 
 }
 
 .food-card img {
@@ -102,15 +108,4 @@
     text-decoration: none;
     color: black;
 }
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-    .food-card{
-        justify-content: center;
-        width: 300px;
 
-    }
-    .food-card img{
-        width: 300px;
-    }
-}

@@ -28,7 +28,7 @@
       "price": "$15",
       "rating": 5.5,
       "image": "https://images.pexels.com/photos/5031943/pexels-photo-5031943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", 
-      "description": "Popular Indian curry...",
+      "description": "Popular Indian fried chicken...",
       "ingredients": ["chicken","white creamic","lemon"],
       "calories": 1000
     },
@@ -154,7 +154,7 @@
       "calories": 1500
     },
     {
-      "id": 14,
+      "id": 15,
       "name": "Lasagne",
       "cuisine": "Italian",
       "price": "$39",
